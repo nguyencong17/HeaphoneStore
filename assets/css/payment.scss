@@ -1,0 +1,544 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+$color-cam: #fc846b;
+$color-white: #fff;
+$color-black: rgb(0, 0, 0);
+$font-playfair: "Playfair Display", serif;
+$font-playfair-noSan: "Playfair Display";
+$font-pop: "Poppins", sans-serif;
+$font-pop-noSan: "Poppins";
+$font-roboto: "Roboto", sans-serif;
+$font-playupdate: "Playfair Display SC", serif;
+$font-monserat : 'Montserrat', sans-serif;
+.active{
+    color: #fc846b;
+}
+body{
+    font-family: $font-pop;
+}
+a{
+    color: #000;    
+}
+input,select{
+    font-size: 14px !important;
+    height: 46px !important;
+}
+input.input-checkbox{
+    height:unset !important;
+    margin-top: 6px;
+}
+.container{
+    .row{
+        .main{
+            padding: 56px 66px 0px 0px;
+            .main__header{
+                padding: 0px 0px 28px;
+                .logo{
+                    width: 25%;
+                }
+                .bread{
+                    ol.breadcrumb{
+                        padding: 0;
+                        margin-top: 15px;
+                        background-color: #fff;
+                        &>li{
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+            }
+            .main__content{
+                .title{
+                    padding: 15px;
+                    .title__name{
+                        padding: 0;
+                        font-size: 18px;
+                    }
+                    .title__login{
+                        padding: 0;
+                        font-size: 13px;
+                        line-height: 24px;
+                        text-align: right;
+                        &>a{
+                            color: $color-cam;
+                        }
+                    }
+                }
+                .information{
+                    flex-direction: column;
+                    .mail{
+                        height: 46px;
+                        padding: 0;
+                        margin-bottom: 15px;
+                        &:focus{
+                            box-shadow: 0 0 0 0.2rem #fc4c4b;
+                            outline: none;
+                            border-color: #fff;
+                        }
+                    }
+                    .check{
+                        font-size: 14px;
+                        display: flex;
+                        padding: 0;
+                        input{
+                            line-height: 20px;
+                        }
+                        p{
+                            margin-left: 15px;
+                        }
+                    }
+                    .shipping-address{
+                        font-size: 18px;
+                        padding: 0;
+                        margin-top: 25px;
+                    }
+                    .name{
+                        margin-top: 15px;
+                        padding-right: 30px;
+                    }
+                    .address,.apartment,.city{
+                        padding: 0;
+                        margin-top: 15px;
+                    }
+                    .accept{
+                        font-size: 14px;
+                        display: flex;
+                        margin-top: 15px;
+                        padding: 0;
+                        input{
+                            margin-top: 5px;
+                        }
+                        p{
+                            margin-left: 15px;
+                        }
+                    }
+                    .button{
+                        padding: 0;
+                        margin-top: 15px;
+                        .btn-checkout{
+                            background-color: #fc4c4b;
+                            margin-right: 15px;
+                            color: #fff;
+                            border: none;
+                        }
+                        &>a{
+                            color: #fc4c4b;
+                        }
+
+                    }
+                    hr{
+                        border: 1px solid #a7a7a7;
+                    }
+                    .author{
+                        margin-top: 15px;
+                        font-size: 14px;
+                        color: #a7a7a7;
+                    }
+                    .country-code{
+                        margin-top: 15px;
+                        padding-right: 30px;
+                    }
+                }
+
+            }
+        }
+        &>.sidebar{
+            flex-direction: column;
+            height: auto;
+            background-color: rgb(245, 243, 241);
+            padding: 56px 0px 0px 33px;
+            .main__header--aside{
+                display: none;
+                // margin-bottom: 25px;
+                &>a{
+                    display: block;
+                    img{
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+            .sidebar__content{
+                .product{
+                    .product__detail{
+                        .img{
+                            padding-left: 0;
+                        }
+                        img{
+                            width: 100%;
+                            border-radius: 10px;
+                        }
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+                .code{
+                    padding: 35px 0;
+                    button{
+                        margin-left: 15px;
+                        border-radius: 3px;
+                        margin-right: 47px;
+                    }
+                    hr{
+                        border:1px solid #333333;
+                    }
+                }
+                .calculate{
+                    padding: 0;
+                    padding-right: 47px;
+                    .subtotal,.shipping,.total{
+                        display: flex;
+                        justify-content: space-between;
+                }
+                }
+
+            }
+        }
+    }
+}
+//Responsive Divide Latop, cac man hinh tu 1200 tro di
+
+@media (min-width:1599px){
+
+}
+
+// Responsive Divide Latop, cac man hinh tu 1024px den 1200px
+
+@media (max-width:1200px) and (min-width:1024px){
+    .container{
+        .row{
+            flex-direction: column-reverse;
+            .main{
+                padding: 0;
+                margin-top: 30px;
+                overflow: hidden;
+                .main__header{
+                    display: none;
+                }
+                .main__content{
+                    .information{
+                        .name{
+                            flex-direction: unset;
+                            &>.fisrt-name{
+                                margin-bottom: 15px;
+                            }
+                        }
+                        hr{
+                           visibility: hidden; 
+                        }
+                        .country-code{
+                            &>.postal-code{
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+    
+                }
+            }
+            &>.sidebar{
+                padding: 56px 33px 0px 33px;
+                .main__header--aside{
+                    display: block;
+                    
+                }
+                .sidebar__content{
+                    flex-direction: unset;
+                    .product{
+                        padding: 0 33px;
+                        .product__detail{
+                            flex-direction: unset;
+                            .img{
+                                margin-bottom: 25px;
+                                padding: 0;
+                            }
+                            p:first-child{
+                                font-size: 22px;
+                            }
+                            .price{
+                                margin-top: 25px;
+                                font-size: 20px;
+                                color: #fc846b;
+                            }
+                        }
+                    }
+                    .code{
+                        padding: 0 33px;
+                        margin-top: 15px;
+                        button{
+                            margin-right: 0;
+                        }
+                        
+                    }
+                    .calculate{
+                        padding: 0 33px;
+                    }
+    
+                }
+            }
+            
+        }
+    }
+}
+
+// Responsive Divide Medium Tablet, cac man hinh tu 768px den 1023px
+
+@media (max-width:1023px) and (min-width:768px){
+    .container{
+        .row{
+            flex-direction: column-reverse;
+            .main{
+                padding: 0;
+                margin-top: 30px;
+                overflow: hidden;
+                .main__header{
+                    display: none;
+                }
+                .main__content{
+                    
+                    .information{
+                        .name{
+                            flex-direction: unset;
+                            &>.fisrt-name{
+                                margin-bottom: 15px;
+                            }
+                        }
+                        hr{
+                           visibility: hidden; 
+                        }
+                        .country-code{
+                            &>.postal-code{
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+    
+                }
+            }
+            &>.sidebar{
+                padding: 56px 33px 0px 33px;
+                .main__header--aside{
+                    display: block;  
+                }
+                .sidebar__content{
+                    flex-direction: unset;
+                    .product{
+                        padding: 0 33px;
+                        .product__detail{
+                            flex-direction: unset;
+                            .img{
+                                margin-bottom: 25px;
+                                padding: 0;
+                            }
+                            p:first-child{
+                                font-size: 22px;
+                            }
+                            .price{
+                                margin-top: 25px;
+                                font-size: 20px;
+                                color: #fc846b;
+                            }
+                        }
+                    }
+                    .code{
+                        padding: 0 33px;
+                        margin-top: 15px;
+                        button{
+                            margin-right: 0;
+                        }
+                    }
+                    .calculate{
+                        padding: 0 33px;
+                    }
+    
+                }
+            }
+            
+        }
+    }
+}
+
+
+//Responsive Divide Small Tablet, cac man hinh tu 600px den 767px
+
+@media (max-width:767px) and (min-width:600px){ 
+    .container{
+        .row{
+            flex-direction: column-reverse;
+            .main{
+                padding: 0;
+                margin-top: 30px;
+                overflow: hidden;
+                .main__header{
+                    display: none;
+                }
+                .main__content{
+                    .information{
+                        .name{
+                            flex-direction: unset;
+                            &>.fisrt-name{
+                                margin-bottom: 15px;
+                            }
+                        }
+                        hr{
+                            visibility: hidden;
+                        }
+                        .country-code{
+                            &>.postal-code{
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+    
+                }
+            }
+            &>.sidebar{
+                padding: 56px 33px 0px 33px;
+                .main__header--aside{
+                    display: block;
+                }
+                .sidebar__content{
+                    flex-direction: unset;
+                    .product{
+                        padding: 0 33px;
+                        .product__detail{
+                            flex-direction: unset;
+                            .img{
+                                margin-bottom: 25px;
+                                padding: 0;
+                            }
+                            p:first-child{
+                                font-size: 22px;
+                            }
+                            .price{
+                                margin-top: 25px;
+                                font-size: 20px;
+                                color: #fc846b;
+                            }
+                        }
+                    }
+                    .code{
+                        padding: 0 33px;
+                        margin-top: 15px;
+                        button{
+                            margin-right: 0;
+                        }
+                    }
+                    .calculate{
+                        padding: 0 33px;
+                    }
+    
+                }
+            }
+            
+        }
+    }
+}
+
+// Responsive Divide Mobie, cac man hinh duoi 600px
+
+@media (max-width:599px){
+    .container{
+        .row{
+            flex-direction: column-reverse;
+            .main{
+                padding: 0;
+                margin-top: 30px;
+                padding: 0 30px;
+                overflow: hidden;
+                .main__header{
+                    display: none;
+                }
+                .main__content{
+                    .title{
+                        .title__login{
+                            display: none;
+                        }
+                    }
+                    .information{
+
+                        .name{
+                            flex-direction: unset;
+                            &>.fisrt-name{
+                                margin-bottom: 15px;
+                            }
+                        }
+                        .button{
+                            .btn-checkout{
+                                font-size: 0.9rem;
+                                width: 100%;
+                                margin-bottom: 15px;
+                            }
+                        }
+                        hr{
+                            visibility: hidden;
+                        }
+                        .country-code{
+                            &>.postal-code{
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+    
+                }
+            }
+            &>.sidebar{
+                padding: 56px 33px 0px 33px;
+                .main__header--aside{
+                    display: block;
+                    img{
+                        width: 50%;
+                    }
+                    .bread .breadcrumb li{
+                        font-size: 11px;
+                    }
+                }
+                .sidebar__content{
+                    flex-direction: unset;
+                    .product{
+                        padding: 0 33px;
+                        .product__detail{
+                            flex-direction: unset;
+                            .img{
+                                margin-bottom: 25px;
+                                padding: 0;
+                            }
+                            p:first-child{
+                                font-size: 16px;
+                            }
+                            p:last-child{
+                                font-size: 12px;
+                            }
+                            .price{
+                                margin-top: 5px;
+                                color: #fc846b;
+                            }
+                        }
+                    }
+                    .code{
+                        padding: 0 33px;
+                        margin-top: 15px;
+                        button{
+                            margin-right: 0;
+                        }
+                    }
+                    .calculate{
+                        padding: 0 33px;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+    
+                }
+            }
+            
+        }
+    }
+}
+@media (min-width:410px) and (max-width:417px){
+
+}

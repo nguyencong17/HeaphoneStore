@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/image/icon.png">
+    <!--Style-->
+    <link rel="stylesheet" href="./assets/css/detail.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/font/css/all.min.css">
+    <title>Detail</title>
+</head>
+
+<body>
+    <!-- Filter in Responsive -->
+    <input type="checkbox" id="filter" hidden class="showFilter">
+    <label for="filter" class="filterBy"><i class="fas fa-filter"></i></label>
+    <!-- Nav Overlay -->
+    <label for="filter" class="nav__overlay-category"></label>
+
+    <div class="" id="aside-bar-mobile">
+        <label for="filter"><i class="fas fa-times exit"></i></label>
+        <div class="aside">
+            <div class="aside__category">
+                <h4>Category</h4>
+                <ul class="menu-category">
+                    <li class="menu-item">
+                        <a href="#">Wireless</a>
+                        <span><i class="fas fa-plus"></i></span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Noise Isolated</a>
+                        <span><i class="fas fa-plus"></i></span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Noise Cancelling</a>
+                        <span><i class="fas fa-plus"></i></span>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Sports Earbud</a>
+                        <span><i class="fas fa-plus"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="aside__hotdeal">
+                <h4>Hot Deals</h4>
+                <img src="./assets/image/Heaphone/product/1.jpg" alt="">
+                <div class="item itemupdate">
+                    <ul class="vote">
+                        <li class="vote-item"><i class="fas fa-star"></i></li>
+                        <li class="vote-item"><i class="fas fa-star"></i></li>
+                        <li class="vote-item"><i class="fas fa-star"></i></li>
+                        <li class="vote-item"><i class="fas fa-star"></i></li>
+                        <li class="vote-item"><i class="fas fa-star"></i></li>
+                    </ul>
+                    <a href="#">
+                        <h4 class="seller">V50 Earphone</h4>
+                    </a>
+                    <p>$900.00</p>
+                </div>
+            </div>
+
+            <div class="aside__bestseller">
+                <h4 id="titsell">Best Seller</h4>
+                <div class="wrap wrap1">
+                    <div class="item itemupdate">
+                        <ul class="vote">
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                        </ul>
+                        <a href="#">
+                            <h4 class="seller">V45 Earphone</h4>
+                        </a>
+                        <p>$900.00</p>
+                    </div>
+                    <img src="./assets/image/Heaphone/product/1.jpg" alt="">
+                </div>
+                <hr class="line-bottomsell">
+                <div class="wrap wrap2">
+                    <div class="item itemupdate">
+                        <ul class="vote">
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                        </ul>
+                        <a href="#">
+                            <h4 class="seller">V50 Earphone</h4>
+                        </a>
+                        <p>$910.00</p>
+                    </div>
+                    <img src="./assets/image/Heaphone/product/2.jpg" alt="">
+                </div>
+                <hr class="line-bottomsell">
+                <div class="wrap wrap3">
+                    <div class="item itemupdate">
+                        <ul class="vote">
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                        </ul>
+                        <a href="#">
+                            <h4 class="seller">Trendy Earbud</h4>
+                        </a>
+                        <p>$910.00</p>
+                    </div>
+                    <img src="./assets/image/Heaphone/product/3.jpg" alt="">
+                </div>
+                <hr class="line-bottomsell">
+                <div class="wrap wrap4">
+                    <div class="item itemupdate">
+                        <ul class="vote">
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                            <li class="vote-item"><i class="fas fa-star"></i></li>
+                        </ul>
+                        <a href="#">
+                            <h4 class="seller">V42 Earphone</h4>
+                        </a>
+                        <p>$900.00</p>
+                    </div>
+                    <img src="./assets/image/Heaphone/product/4.jpg" alt="">
+                </div>
+
+
+            </div>
+
+            <div class="aside__service">
+                <div class="aside__service--gift service">
+                    <a href="#">
+                        <span><i class="fas fa-gift"></i></span>
+                    </a>
+                    <div class="description">
+                        <h5>Special Offer 1 + 1 = 3</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+                <hr class="line-bottomsell">
+                <div class="aside__service--card service">
+                    <a href="#">
+                        <span><i class="fas fa-credit-card"></i></span>
+                    </a>
+                    <div class="description">
+                        <h5>Free Reward Card</h5>
+                        <p>Ut enim ad minim veniam, quis nostrud</p>
+                    </div>
+                </div>
+                <hr class="line-bottomsell">
+                <div class="aside__service--ship service">
+                    <a href="#">
+                        <span><i class="fas fa-shipping-fast"></i></span>
+                    </a>
+                    <div class="description">
+                        <h5>
+                            Free Shipping</h5>
+                        <p>Fugiat nulla pariatur. Excepteur sint</p>
+                    </div>
+                </div>
+                <hr class="line-bottomsell">
+                <div class="aside__service--return service">
+                    <a href="#">
+                        <span><i class="fas fa-undo"></i></span>
+                    </a>
+                    <div class="description">
+                        <h5>Order Return</h5>
+                        <p>
+                            Order Return
+                            nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Filter Responsive -->
+
+    <!-- Begin Header-->
+    <div class="wrapper detail">
+        <!-- Dialog Search -->
+        <div class="dialog-search overlay__detail" id="my-dialog-search">
+            <a class="overlay-close" href="#"></a>
+            <div class="search-box">
+                <a class="dialog-close-btn" href="#"><i class="fas fa-times"></i></a>
+                <form action="" class="form-seach" id="">
+                    <input type="text" name="" class="form-input-search" id="">
+                    <button type="submit" class="btn-submit-search"><span><i class="fas fa-search"></i></span></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="header">
+            <!--Header Navbar-->
+            <div class="header__nav">
+                <input type="checkbox" name="" hidden id="nav-mobile-input" class="nav__input">
+                <!-- Bar Mobile -->
+
+                <label for="nav-mobile-input" class="nav_bars-btn"><i class="fas fa-bars"></i></label>
+
+                <!-- Nav Overlay -->
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                <!-- Nav-mobile -->
+                <div class="nav-mobile" id="nav_mobile">
+
+                    <label for="nav-mobile-input" class="nav_mobile-close"><i class="fas fa-times"></i></label>
+                    <ul class="nav_mobile-list">
+                        <li class="nav_mobile-link active"><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-th-list"></i><a href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-blog"></i><a href="blog.html">Blog</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-building"></i><a href="about.html">About</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-basketball-ball"></i><a
+                                href="service.html">Service</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-question"></i><a href="faq.html">Faq</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-id-card"></i><a href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-user-alt"></i><a href="login.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- Logo -->
+                <div class="header__left--logo">
+                    <a href="index.html">
+                        <img src="./assets/image/logo.png" alt="Logo" id="logo">
+                    </a>
+
+                </div>
+                <!-- Navigation pc -->
+                <div class="header__left--menu" id="nav-pc">
+                    <ul class="menu-list">
+                        <li class="menu-item active"><a href="index.html" >Home</a></li>
+                        <li class="menu-item dropdown-2"><a href="catalog.html" class="active-nav">Catalog</a>
+                            <div class="sub-menu-2">
+                                <div class="categories">
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">BLUETOOTH EARBUD</a></strong>
+                                        <p><a href="catalog.html">Bluetooth Earphone</a></p>
+                                        <p><a href="catalog.html">Portable Earphone</a></p>
+                                        <p><a href="catalog.html">M20 Earbud</a></p>
+                                        <p><a href="catalog.html">X01 Earbud</a></p>
+                                        <p><a href="catalog.html">M12 Earbud</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">IN EAR</a></strong>
+                                        <p><a href="catalog.html">Comfort Earphone</a></p>
+                                        <p><a href="catalog.html">Slick Earphone</a></p>
+                                        <p><a href="catalog.html">V50 Earphone</a></p>
+                                        <p><a href="catalog.html">Scrutt Earbud</a></p>
+                                        <p><a href="catalog.html">Brozzo Earbud</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">IN-EAR EARPHONE</a></strong>
+                                        <p><a href="catalog.html">Trendy Earphone</a></p>
+                                        <p><a href="catalog.html">Wireless Earphone</a></p>
+                                        <p><a href="catalog.html">Fossils Earbud</a></p>
+                                        <p><a href="catalog.html">Beast Earbud</a></p>
+                                        <p><a href="catalog.html">Slick Earphone</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">WIRELESS</a></strong>
+                                        <p><a href="catalog.html">Noise Isolation Earbud</a></p>
+                                        <p><a href="catalog.html">V42 Earphone</a></p>
+                                        <p><a href="catalog.html">Cambri Earbud</a></p>
+                                        <p><a href="catalog.html">Bower Earbud</a></p>
+                                        <p><a href="catalog.html">Gripper Earbud</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="bn">
+                                    <img src="./assets/image/bn-1.png" alt="">
+                                    <img src="./assets/image/bn-2.png" alt="">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                        <li class="menu-item dropdown" id="linkSub"><a href="#">Information</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menuItem"><a href="about.html">About</a></li>
+
+                                <li class="sub-menuItem"><a href="service.html">Service</a></li>
+
+                                <li class="sub-menuItem"><a href="faq.html">Faq</a></li>
+
+                                <li class="sub-menuItem"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__action">
+                    <a href="cart.html" id="cart"><i class="fas fa-shopping-bag"></i></a>
+
+                    <a href="login.html" id="arrow-down"><i class="fas fa-user"></i></a>
+
+                    <a href="#my-dialog-search" id="search-btn"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header-->
+
+    <!--Chi tiết sản phẩm-->
+    <section id="detail" class="content">
+        <!--Begin Banner-->
+        <div class="content__banner">
+            <img src="./assets/image/Heaphone/9.jpg" alt="">
+            <div class="banner--underground"></div>
+            <div class="banner--title">
+                <h1>Bluetooth Earphone</h1>
+                <a href="#" class="">Product</a><span>&nbsp;/&nbsp</span><span>Bluetooth Earphone</span>
+            </div>
+        </div>
+        <!--End Banner-->
+        <article class="content__main">
+            <aside class="content__main--aside">
+                <div class="aside">
+                    <div class="aside__category">
+                        <h4>Category</h4>
+                        <ul class="menu-category">
+                            <li class="menu-item">
+                                <a href="#">Wireless</a>
+                                <span><i class="fas fa-plus"></i></span>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Noise Isolated</a>
+                                <span><i class="fas fa-plus"></i></span>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Noise Cancelling</a>
+                                <span><i class="fas fa-plus"></i></span>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Sports Earbud</a>
+                                <span><i class="fas fa-plus"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="aside__hotdeal">
+                        <h4>Hot Deals</h4>
+                        <img src="./assets/image/Heaphone/product/1.jpg" alt="">
+                        <div class="item itemupdate">
+                            <ul class="vote">
+                                <li class="vote-item"><i class="fas fa-star"></i></li>
+                                <li class="vote-item"><i class="fas fa-star"></i></li>
+                                <li class="vote-item"><i class="fas fa-star"></i></li>
+                                <li class="vote-item"><i class="fas fa-star"></i></li>
+                                <li class="vote-item"><i class="fas fa-star"></i></li>
+                            </ul>
+                            <a href="#">
+                                <h4 class="seller">V50 Earphone</h4>
+                            </a>
+                            <p>$900.00</p>
+                        </div>
+                    </div>
+
+                    <div class="aside__bestseller">
+                        <h4 id="titsell">Best Seller</h4>
+                        <div class="wrap wrap1">
+                            <div class="item itemupdate">
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4 class="seller">V45 Earphone</h4>
+                                </a>
+                                <p>$900.00</p>
+                            </div>
+                            <img src="./assets/image/Heaphone/product/1.jpg" alt="">
+                        </div>
+                        <hr class="line-bottomsell">
+                        <div class="wrap wrap2">
+                            <div class="item itemupdate">
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4 class="seller">V50 Earphone</h4>
+                                </a>
+                                <p>$910.00</p>
+                            </div>
+                            <img src="./assets/image/Heaphone/product/2.jpg" alt="">
+                        </div>
+                        <hr class="line-bottomsell">
+                        <div class="wrap wrap3">
+                            <div class="item itemupdate">
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4 class="seller">Trendy Earbud</h4>
+                                </a>
+                                <p>$910.00</p>
+                            </div>
+                            <img src="./assets/image/Heaphone/product/3.jpg" alt="">
+                        </div>
+                        <hr class="line-bottomsell">
+                        <div class="wrap wrap4">
+                            <div class="item itemupdate">
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4 class="seller">V42 Earphone</h4>
+                                </a>
+                                <p>$900.00</p>
+                            </div>
+                            <img src="./assets/image/Heaphone/product/4.jpg" alt="">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </aside>
+            <div class="content__main--detail">
+                <div class="detail">
+                    <div class="detail__left">
+                        <img src="./assets/image/Heaphone/product/7.jpg" alt="" class="img-main">
+                        <div class="detail__left--listImg">
+                            <img src="./assets/image/Heaphone/product/7.jpg" alt="">
+                            <img src="./assets/image/Heaphone/product/7.jpg" alt="">
+                            <img src="./assets/image/Heaphone/product/7.jpg" alt="">
+                            <img src="./assets/image/Heaphone/product/7.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="detail__right">
+                        <h2 id="name">Bluetooth Earphone</h2>
+                        <div class="detail__right--vote">
+                            <div class="vote-left">
+                                <i class="fas fa-fire"></i>
+                                <h3>12 sold in last 20 hours</h3>
+                            </div>
+                            <div class="vote-right">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="far fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="detail__right--descr">Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet
+                            ac sed elit. Pellentesque
+                            nulla eros accumsan quis justo at tincidunt lobortis denimes loremous. Suspendisse
+                            vestibulum lectus in lectus volutpat</div>
+                        <div class="detail__right--price">
+                            <label for="price">Price :</label>
+                            <h5>$910.00</h5>
+                        </div>
+                        <div class="detail__right--size">
+                            <label for="price" id="sizetitle">Size *</label>
+                            <div class="selectsize">
+                                <p>12.5 mm</p>
+                                <p>13.5 mm</p>
+                                <p>2.5 mm</p>
+                                <p>3.5 mm</p>
+                            </div>
+
+                        </div>
+                        <div class="detail__right--color">
+                            <label for="price">Color *</label>
+                            <ul class="menu-color">
+                                <li class="white">
+                                    <input type="checkbox" id="White1" value="white">
+                                    <a href="#" title="White">
+                                        <label for="White1">
+                                            <span style="background:#ffffff;"></span>
+                                        </label>
+                                    </a>
+                                </li>
+
+                                <li class="blue">
+                                    <input type="checkbox" id="Blue2" value="white">
+                                    <a href="#" title="Blue">
+                                        <label for="Blue2">
+                                            <span style="background:#15019c;"></span>
+                                        </label>
+                                    </a>
+                                </li>
+
+                                <li class="black">
+                                    <input type="checkbox" id="Black3" value="white">
+                                    <a href="#" title="Black">
+                                        <label for="Black3">
+                                            <span style="background:#000000;"></span>
+                                        </label>
+                                    </a>
+                                </li>
+
+                                <li class="red">
+                                    <input type="checkbox" id="Red4" value="white">
+                                    <a href="#" title="Red">
+                                        <label for="Red4">
+                                            <span style="background:#ff0000;"></span>
+                                        </label>
+                                    </a>
+                                </li>
+
+                                <li class="green">
+                                    <input type="checkbox" id="Green5" value="white">
+                                    <a href="javascript:void(0)" title="Green">
+                                        <label for="Green5">
+                                            <span style="background:#00ff00;"></span>
+                                        </label>
+                                    </a>
+                                </li>
+
+                                <li class="orange">
+                                    <input type="checkbox" id="Orange6" value="white">
+                                    <a href="#" title="Orange">
+                                        <label for="Orange6">
+                                            <span style="background:#e18b34;"></span>
+                                        </label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="detail__right--material">
+                            <label for="price">Material *</label>
+                            <div class="selectmaterial">
+                                <p>Silicon</p>
+                                <p>Plastic</p>
+                                <p>Fiber</p>
+
+
+                            </div>
+                        </div>
+                        <div class="detail__right--brand">
+                            <label for="price">Brand :</label>
+                            <h5>Autofy</h5>
+                        </div>
+                        <div class="detail__right--status">
+                            <label for="price">Availability :</label>
+                            <h5>In Stock</h5>
+                        </div>
+                        <div class="detail__right--quantity">
+                            <label for="price">Quantity :</label>
+                            <div class="quan">
+
+
+                                <div class="dec button">-</div>
+
+                                <input type="text" id="quantity" name="quantity" value="1" min="1">
+
+                                <div class="inc button">+</div>
+
+
+                                <p class="min-qty-alert" style="display:none">Minimum quantity should be 1</p>
+                            </div>
+                        </div>
+                        <div class="detail__right--total">
+                            <label for="price">Subtotal :</label>
+                            <h5>$910.00</h5>
+                        </div>
+                        <div class="detail__right--action">
+                            <a href="#"><button class="btn btn-shopnow btn-rouded additem"><span><i
+                                            class="fas fa-cart-plus"></i></span>Add to Cart</button></a>
+                            <a href="#"><button class="btn btn-shopnow btn-rouded like">Add to Wishlist</button></a>
+                        </div>
+                        <a href="#"><button class="btn btn-shopnow btn-rouded " id="buy">Buy it Now</button></a>
+
+
+                    </div>
+                </div>
+
+                <div class="descrip__product">
+                    <div class="descrip__product--title">
+                        <div class="des">Product Description</div>
+                        <div class="review">Review</div>
+                    </div>
+                    <div class="descrip__product--main">
+                        <div class="wrap">
+                            <br>
+                            <p>Nam tempus turpis at metus scelerisque placerat nulla deumantos
+                                solicitud felis. Pellentesque diam dolor, elementum etos lobortis
+                                des mollis ut risus. Sedcus faucibus an sullamcorper mattis
+                                drostique des commodo pharetras loremos.Donec pretium egestas
+                                sapien et mollis.</p>
+                            <h4>Sample Unordered List</h4>
+                            <ol class="list1">
+                                <li>Comodous in tempor ullamcorper miaculis</li>
+                                <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                                <li>Divamus sit amet purus justo.</li>
+                                <li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+                            </ol>
+                            <h4>Sample Ordered Lista</h4>
+                            <ol class="list2">
+                                <li>Comodous in tempor ullamcorper miaculis.</li>
+                                <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                                <li>Divamus sit amet purus justo.</li>
+                                <li>Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+                            </ol>
+                            <h4>Sample Paragraph Text</h4>
+                            <p id="blockquote">Praesent vestibulum congue tellus at fringilla. Curabitur vitae semper
+                                sem,
+                                eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl.
+                                Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit
+                                quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque.
+                                Sed vitae mi a mi pretium aliquet ac sed elit. Pellentesque nulla eros accumsan
+                                quis justo at tincidunt lobortis denimes loremous. Suspendisse vestibulum lectus
+                                in lectus volutpat, ut dapibus purus pulvinar. Vestibulum sit amet auctor ipsum.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="aside__service">
+                    <div class="aside__service--gift service">
+                        <a href="#">
+                            <span><i class="fas fa-gift"></i></span>
+                        </a>
+                        <div class="description">
+                            <h5>Special Offer 1 + 1 = 3</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                    <div class="aside__service--card service">
+                        <a href="#">
+                            <span><i class="fas fa-credit-card"></i></span>
+                        </a>
+                        <div class="description">
+                            <h5>Free Reward Card</h5>
+                            <p>Ut enim ad minim veniam, quis nostrud</p>
+                        </div>
+                    </div>
+                    <div class="aside__service--ship service">
+                        <a href="#">
+                            <span><i class="fas fa-shipping-fast"></i></span>
+                        </a>
+                        <div class="description">
+                            <h5>
+                                Free Shipping</h5>
+                            <p>Fugiat nulla pariatur. Excepteur sint</p>
+                        </div>
+                    </div>
+                    <div class="aside__service--return service">
+                        <a href="#">
+                            <span><i class="fas fa-undo"></i></span>
+                        </a>
+                        <div class="description">
+                            <h5>Order Return</h5>
+                            <p>
+                                Order Return
+                                nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <i class="far fa-question-circle"></i>
+                    <a href="#">
+                        <h5>HAVE QUESTIONS? ASK AN EXPERT</h5>
+                    </a>
+                </div>
+
+
+
+                <div class="history">
+                    <h5 class="history__title">Related Products</h5>
+                    <div class="product">
+                        <div class="round">
+                            <div class="item">
+                                <img src="./assets/image/Heaphone/product/9.jpg" alt="">
+
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4>V45 Earphone</h4>
+                                </a>
+                                <p>$910.00</p>
+                            </div>
+
+
+                            <div class="item">
+                                <img src="./assets/image/Heaphone/product/8.jpg" alt="">
+
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4>Bluetooth</h4>
+                                </a>
+                                <p>$900.00</p>
+                            </div>
+
+                            <div class="item item-hidden-2">
+                                <img src="./assets/image/Heaphone/product/2.jpg" alt="">
+
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4>V12 EarMax</h4>
+                                </a>
+                                <p>$1000.00</p>
+                            </div>
+
+                            <div class="item item-hidden">
+                                <img src="./assets/image/Heaphone/product/6.jpg" alt="">
+
+                                <ul class="vote">
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                    <li class="vote-item"><i class="fas fa-star"></i></li>
+                                </ul>
+                                <a href="#">
+                                    <h4>Comfort EarPhone</h4>
+                                </a>
+                                <p>$910.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </article>
+
+    </section>
+    <!--Kết thúc Chi tiết sản phẩm-->
+
+    <!--Begin Footer-->
+    <div class="wrapper7" id="footercatalog">
+        <div class="footer">
+            <img src="./assets/image/Heaphone/footer.png" alt="" id="note">
+            <div class="opacity">
+            </div>
+            <div class="footer__logo">
+                <img src="./assets/image/logo.png" alt="">
+            </div>
+            <div class="footer--slogan">
+                <h2>Subscribe Our Newsletter</h2>
+            </div>
+            <form action="#" class="search ">
+                <input type="text" name="search" placeholder="Enter Email" id="" class="input">
+                <button class="submit btn-rouded">Subcribe</button>
+            </form>
+            <div class="bylogin">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <ul class="footer-contact">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li class="note2">About</li>
+                </a>
+                <a href="#">
+                    <li class="note2">Blog</li>
+                </a>
+                <a href="#">
+                    <li class="note2">Shop</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!--End Fotter-->
+</body>
+
+</html>

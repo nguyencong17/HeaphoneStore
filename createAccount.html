@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/image/icon.png">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/font/css/all.min.css">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./assets/css/createAccount.css">
+
+    <title>Create Account</title>
+</head>
+
+<body>
+
+    <!-- Begin Header-->
+    <div class="wrapper create">
+        <!-- Dialog Search -->
+        <div class="dialog-search overlay__detail" id="my-dialog-search">
+            <a class="overlay-close" href="#"></a>
+            <div class="search-box">
+                <a class="dialog-close-btn" href="#"><i class="fas fa-times"></i></a>
+                <form action="" class="form-seach" id="">
+                    <input type="text" name="" class="form-input-search" id="">
+                    <button type="submit" class="btn-submit-search"><span><i class="fas fa-search"></i></span></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="header">
+            <!--Header Navbar-->
+            <div class="header__nav">
+                <input type="checkbox" name="" hidden id="nav-mobile-input" class="nav__input">
+                <!-- Bar Mobile -->
+
+                <label for="nav-mobile-input" class="nav_bars-btn"><i class="fas fa-bars"></i></label>
+
+                <!-- Nav Overlay -->
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                <!-- Nav-mobile -->
+                <div class="nav-mobile" id="nav_mobile">
+
+                    <label for="nav-mobile-input" class="nav_mobile-close"><i class="fas fa-times"></i></label>
+                    <ul class="nav_mobile-list">
+                        <li class="nav_mobile-link active"><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-th-list"></i><a href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-cart-plus"></i><a href="cart.html">Cart</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-blog"></i><a href="blog.html">Blog</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-building"></i><a href="about.html">About</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-basketball-ball"></i><a
+                                href="service.html">Service</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-question"></i><a href="faq.html">Faq</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-id-card"></i><a href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-user-alt"></i><a href="login.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- Logo -->
+                <div class="header__left--logo">
+                    <a href="index.html">
+                        <img src="./assets/image/logo.png" alt="Logo" id="logo">
+                    </a>
+
+                </div>
+                <!-- Navigation pc -->
+                <div class="header__left--menu" id="nav-pc">
+                    <ul class="menu-list">
+                        <li class="menu-item active"><a href="index.html" >Home</a></li>
+                        <li class="menu-item dropdown-2"><a href="catalog.html">Catalog</a>
+                            <div class="sub-menu-2">
+                                <div class="categories">
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">BLUETOOTH EARBUD</a></strong>
+                                        <p><a href="catalog.html">Bluetooth Earphone</a></p>
+                                        <p><a href="catalog.html">Portable Earphone</a></p>
+                                        <p><a href="catalog.html">M20 Earbud</a></p>
+                                        <p><a href="catalog.html">X01 Earbud</a></p>
+                                        <p><a href="catalog.html">M12 Earbud</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">IN EAR</a></strong>
+                                        <p><a href="catalog.html">Comfort Earphone</a></p>
+                                        <p><a href="catalog.html">Slick Earphone</a></p>
+                                        <p><a href="catalog.html">V50 Earphone</a></p>
+                                        <p><a href="catalog.html">Scrutt Earbud</a></p>
+                                        <p><a href="catalog.html">Brozzo Earbud</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">IN-EAR EARPHONE</a></strong>
+                                        <p><a href="catalog.html">Trendy Earphone</a></p>
+                                        <p><a href="catalog.html">Wireless Earphone</a></p>
+                                        <p><a href="catalog.html">Fossils Earbud</a></p>
+                                        <p><a href="catalog.html">Beast Earbud</a></p>
+                                        <p><a href="catalog.html">Slick Earphone</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">WIRELESS</a></strong>
+                                        <p><a href="catalog.html">Noise Isolation Earbud</a></p>
+                                        <p><a href="catalog.html">V42 Earphone</a></p>
+                                        <p><a href="catalog.html">Cambri Earbud</a></p>
+                                        <p><a href="catalog.html">Bower Earbud</a></p>
+                                        <p><a href="catalog.html">Gripper Earbud</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="bn">
+                                    <img src="./assets/image/bn-1.png" alt="">
+                                    <img src="./assets/image/bn-2.png" alt="">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                        <li class="menu-item dropdown" id="linkSub"><a href="#">Information</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menuItem"><a href="about.html">About</a></li>
+
+                                <li class="sub-menuItem"><a href="service.html">Service</a></li>
+
+                                <li class="sub-menuItem"><a href="faq.html">Faq</a></li>
+
+                                <li class="sub-menuItem"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__action">
+                    <a href="cart.html" id="cart"><i class="fas fa-shopping-bag"></i></a>
+
+                    <a href="login.html" id="arrow-down"><i class="fas fa-user"></i></a>
+
+                    <a href="#my-dialog-search" id="search-btn"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header-->
+
+    <!--Begin Banner-->
+    <section id="create" class="content">
+        <div class="content__banner">
+            <img src="./assets/image/Heaphone/9.jpg" alt="">
+            <div class="banner--underground"></div>
+            <div class="banner--title">
+                <h1>Create Account</h1>
+                <a href="#" class="">Home</a><span>&nbsp;/&nbsp</span><span>Account</span>
+            </div>
+        </div>
+
+    </section>
+    <!--End Banner-->
+
+    <!--Begin Content Main -->
+    <div class="container content-main">
+        <div class="row form-login">
+            <div class="form-group">
+                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                    placeholder="First Name">
+                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                    placeholder="Last Name">
+                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                    placeholder="Email">
+                <input type="password" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                    placeholder="Password">
+
+                <button type="button" class="btn btn-dark">Register</button>
+                <a href="index.html" class="line">
+                    <p>Return to Store</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!--End Content Main -->
+
+    <!--Begin Footer-->
+    <div class="wrapper7" id="footercatalog">
+        <div class="footer">
+            <img src="./assets/image/Heaphone/footer.png" alt="" id="note">
+            <div class="opacity">
+            </div>
+            <div class="footer__logo">
+                <img src="./assets/image/logo.png" alt="">
+            </div>
+            <div class="footer--slogan">
+                <h2>Subscribe Our Newsletter</h2>
+            </div>
+            <form action="#" class="search ">
+                <input type="text" name="search" placeholder="Enter Email" id="" class="input">
+                <button class="submit btn-rouded">Subcribe</button>
+            </form>
+            <div class="bylogin">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <ul class="footer-contact">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li class="note2">About</li>
+                </a>
+                <a href="#">
+                    <li class="note2">Blog</li>
+                </a>
+                <a href="#">
+                    <li class="note2">Shop</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!--End Fotter-->
+
+</body>
+
+</html>

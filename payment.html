@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/font/css/all.min.css">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./assets/css/payment.css">
+    <title>Payment</title>
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-md-12 col-sm-12 main">
+                <div class="main__header">
+                    <a href="index.html"><img src="./assets/image/logo.png" alt="" class="logo"></a>
+                    <nav aria-label="breadcrumb" class="bread">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#" class="active">Cart</a></li>
+                            <li class="breadcrumb-item"><a href="#">Information</a></li>
+                            <li class="breadcrumb-item"><a href="#">Shipping</a></li>
+                            <li class="breadcrumb-item" aria-current="page">Payment</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="main__content">
+                    <div class="row title">
+                        <div class="col-xl-6 title__name">
+                            Contact information
+                        </div>
+                        <div class="col-xl-6 title__login">
+                            Already have an account ? <a href="./login.html">Log in</a>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 information">
+                        <div class="col-xl-12 mail">
+                            <input type="text" class="form-control input-mail"
+                                placeholder="Email or Mobile Phone Number" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="col-xl-12 check">
+                            <input type="checkbox" class="input-checkbox">
+                            <p>Keep me up to date on news and exclusive offers</p>
+                        </div>
+
+                        <div class="col-xl-12 shipping-address">
+                            Shipping Address
+                        </div>
+                        <div class="row name">
+                            <div class="col-xl-6 fisrt-name">
+                                <input type="text" class="form-control input-mail" placeholder="Fisrt Name"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="col-xl-6 last-name">
+                                <input type="text" class="form-control input-mail" placeholder="Last Name"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="col-xl-12 address">
+                            <input type="text" class="form-control input-mail" placeholder="Address"
+                                aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="col-xl-12 apartment">
+                            <input type="text" class="form-control input-mail"
+                                placeholder="Apartment,Siut,etc.(optional)" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="col-xl-12 city">
+                            <input type="text" class="form-control input-mail" placeholder="City" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="row country-code">
+                            <div class="col-xl-6 country">
+                                <select class="custom-select">
+                                    <option selected>Country / Region</option>
+                                    <option value="1">VietNam</option>
+                                    <option value="2">Indian</option>
+                                    <option value="4">Japan</option>
+                                    <option value="5">Korea</option>
+                                    <option value="6">England</option>
+                                    <option value="7">USA</option>
+                                    <option value="8">Portugal</option>
+
+                                </select>
+                            </div>
+                            <div class="col-xl-6 postal-code">
+                                <input type="text" class="form-control input-mail" placeholder="Postal Code"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="col-xl-12 accept">
+                            <input type="checkbox" class="input-checkbox">
+                            <p> Save this information for next time</p>
+                        </div>
+                        <div class="col-xl-12 button">
+                            <button class="btn btn-success btn-lg btn-checkout">Continue to Shipping</button>
+                            <a href="./cart.html">Return to cart</a>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <hr class="col-xl-12 col-md-12 col-sm-12">
+                        <div class="col-xl-12 author">All rights reserved Cong Duy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-md-12 col-sm-12 sidebar">
+                <div class="main__header--aside">
+                    <a href="index.html"><img src="./assets/image/logo.png" alt="" class="logo"></a>
+                    <nav aria-label="breadcrumb" class="bread">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#" class="active">Cart</a></li>
+                            <li class="breadcrumb-item"><a href="#">Information</a></li>
+                            <li class="breadcrumb-item"><a href="#">Shipping</a></li>
+                            <li class="breadcrumb-item" aria-current="page">Payment</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row sidebar__content">
+                    <div class="col-xl-12 product">
+                        <div class="row product__detail">
+                            <div class="col-xl-3 img">
+                                <img src="./assets/image/Heaphone/product/6.jpg" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <p>Comfort Earphone</p>
+                                <p>2.5 mm / Black / Silicon</p>
+                            </div>
+                            <div class="col-xl-3 price">$910.00</div>
+
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-xl-12 code">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Discount code"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-xl-12 calculate">
+                        <div class="subtotal">
+                            <p>SubTotal</p>
+                            <p>$910.00</p>
+                        </div>
+                        <div class="shipping">
+                            <p>Shipping</p>
+                            <p>Calculated at next step</p>
+                        </div>
+                        <div class="total">
+                            <p>Total</p>
+                            <p>$910.00</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

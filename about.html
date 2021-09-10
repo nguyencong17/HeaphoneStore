@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/image/icon.png">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/font/css/all.min.css">
+    <title>About</title>
+</head>
+
+<body>
+    <!-- Begin Header-->
+    <div class="wrapper about">
+        <!-- Dialog Search -->
+        <div class="dialog-search overlay__detail" id="my-dialog-search">
+            <a class="overlay-close" href="#"></a>
+            <div class="search-box">
+                <a class="dialog-close-btn" href="#"><i class="fas fa-times"></i></a>
+                <form action="" class="form-seach" id="">
+                    <input type="text" name="" class="form-input-search" id="">
+                    <button type="submit" class="btn-submit-search"><span><i class="fas fa-search"></i></span></button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="header">
+            <!--Header Navbar-->
+            <div class="header__nav">
+                <input type="checkbox" name="" hidden id="nav-mobile-input" class="nav__input">
+                <!-- Bar Mobile -->
+
+                <label for="nav-mobile-input" class="nav_bars-btn"><i class="fas fa-bars"></i></label>
+
+                <!-- Nav Overlay -->
+                <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                <!-- Nav-mobile -->
+                <div class="nav-mobile" id="nav_mobile">
+
+                    <label for="nav-mobile-input" class="nav_mobile-close"><i class="fas fa-times"></i></label>
+                    <ul class="nav_mobile-list">
+                        <li class="nav_mobile-link active"><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-th-list"></i><a href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-cart-plus"></i><a href="cart.html">Cart</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-blog"></i><a href="blog.html">Blog</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-building"></i><a href="about.html">About</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-basketball-ball"></i><a
+                                href="service.html">Service</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-question"></i><a href="faq.html">Faq</a></li>
+                        <li class="nav_mobile-link"><i class="fas fa-id-card"></i><a href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav_mobile-link"><i class="fas fa-user-alt"></i><a href="login.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- Logo -->
+                <div class="header__left--logo">
+                    <a href="index.html">
+                        <img src="./assets/image/logo.png" alt="Logo" id="logo">
+                    </a>
+
+                </div>
+                <!-- Navigation pc -->
+                <div class="header__left--menu" id="nav-pc">
+                    <ul class="menu-list">
+                        <li class="menu-item active"><a href="index.html" >Home</a></li>
+                        <li class="menu-item dropdown-2"><a href="catalog.html">Catalog</a>
+                            <div class="sub-menu-2">
+                                <div class="categories">
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">BLUETOOTH EARBUD</a></strong>
+                                        <p><a href="catalog.html">Bluetooth Earphone</a></p>
+                                        <p><a href="catalog.html">Portable Earphone</a></p>
+                                        <p><a href="catalog.html">M20 Earbud</a></p>
+                                        <p><a href="catalog.html">X01 Earbud</a></p>
+                                        <p><a href="catalog.html">M12 Earbud</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">IN EAR</a></strong>
+                                        <p><a href="catalog.html">Comfort Earphone</a></p>
+                                        <p><a href="catalog.html">Slick Earphone</a></p>
+                                        <p><a href="catalog.html">V50 Earphone</a></p>
+                                        <p><a href="catalog.html">Scrutt Earbud</a></p>
+                                        <p><a href="catalog.html">Brozzo Earbud</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">IN-EAR EARPHONE</a></strong>
+                                        <p><a href="catalog.html">Trendy Earphone</a></p>
+                                        <p><a href="catalog.html">Wireless Earphone</a></p>
+                                        <p><a href="catalog.html">Fossils Earbud</a></p>
+                                        <p><a href="catalog.html">Beast Earbud</a></p>
+                                        <p><a href="catalog.html">Slick Earphone</a></p>
+                                    </div>
+                                    <div class="catgories_col">
+                                        <strong><a href="catalog.html">WIRELESS</a></strong>
+                                        <p><a href="catalog.html">Noise Isolation Earbud</a></p>
+                                        <p><a href="catalog.html">V42 Earphone</a></p>
+                                        <p><a href="catalog.html">Cambri Earbud</a></p>
+                                        <p><a href="catalog.html">Bower Earbud</a></p>
+                                        <p><a href="catalog.html">Gripper Earbud</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="bn">
+                                    <img src="./assets/image/bn-1.png" alt="">
+                                    <img src="./assets/image/bn-2.png" alt="">
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                        <li class="menu-item dropdown" id="linkSub"><a href="#" class="active-nav">Information</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menuItem"><a href="about.html">About</a></li>
+
+                                <li class="sub-menuItem"><a href="service.html">Service</a></li>
+
+                                <li class="sub-menuItem"><a href="faq.html">Faq</a></li>
+
+                                <li class="sub-menuItem"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__action">
+                    <a href="cart.html" id="cart"><i class="fas fa-shopping-bag"></i></a>
+
+                    <a href="login.html" id="arrow-down"><i class="fas fa-user"></i></a>
+
+                    <a href="#my-dialog-search" id="search-btn"><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header-->
+
+    <section id="about" class="content">
+        <!--Begin Banner-->
+        <div class="content__banner">
+            <img src="./assets/image/Heaphone/9.jpg" alt="">
+            <div class="banner--underground"></div>
+            <div class="banner--title">
+                <h1>ABOUT</h1>
+                <a href="#" class="">Home</a><span>&nbsp;/&nbsp</span><span>About</span>
+            </div>
+        </div>
+        <!--End Banner-->
+
+        <!--Begin Article-->
+        <div class="wrap">
+            <article class="ar1">
+                <div class="goal-one">
+                    <h2 class="goal-title">Fulfill your shoe needs...</h2>
+                    <p class="goal-des">Quisque volutpat mattis eros. Nullam malesuada erat ut ki diaml ka dhuddu pochu
+                        turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo
+                        eget felis facilisis fermentum. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
+                        euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat</p>
+                    <div class="comment">
+                        <p class="comment-des">Nullam malesuada erat ut ki diaml ka dhuddu pochu turpis. Suspendisse
+                            urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis
+                            facilisis fermentum. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod.
+                            Sed arcu. Cras consequat Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum."</p>
+                        <span class="comment-author">-Nguyen Duy Cong</span>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./assets/image/Heaphone/about/1.jpg" alt="">
+                </div>
+            </article>
+
+            <article class="ar2">
+                <div class="goal-two">
+                    <img src="./assets/image/product/about/2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="content__left">
+                        <h2 class="content__left--title">Feel the decibels closely...</h2>
+                        <p class="content__left--des">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut
+                            libero venenatis faucibus. Nullam quis ante. Maecenas nec odio et ante tincidunt tempus.
+                            Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. ec vitae sapien ut libero
+                            venenatis faucibus. Nullam quis ante.</p>
+                        <button class="btn btn-shopnow btn-rouded">Show more</button>
+
+                    </div>
+
+                    <div class="content__right">
+                        <div class="include item1">
+                            <span><i class="fas fa-magic"></i></span>
+                            <h3>Listen Differently</h3>
+                            <p>Fusce ullamcorper pulvinar enim, ac elementum justo vulputate non tristique.</p>
+                        </div>
+
+                        <div class="include item4">
+                            <span><i class="fas fa-tags"></i></span>
+                            <h3>Feel The Rhythm</h3>
+                            <p>Donec erat ligula, ultricies ut eleifend egestas, imperdiet vitae felis.</p>
+                        </div>
+
+                        <div class="include item2">
+                            <span><i class="fas fa-heart"></i></span>
+                            <h3>Dance Your Heart</h3>
+                            <p>Aliquam quam diam, ornare at luctus quis, auctor sed leo. vivamus.</p>
+                        </div>
+
+                        <div class="include item5">
+                            <span><i class="fas fa-user"></i></span>
+                            <h3>Sound Of Silence</h3>
+                            <p>Phasellus imperdiet eget tellus in ullamcorper. Aliquam varius.</p>
+                        </div>
+
+                        <div class="include item3">
+                            <span><i class="fas fa-users"></i></span>
+                            <h3>Go Wireless</h3>
+                            <p> Pellentesque habitant morbi tristique senectus et netus et malesuada.</p>
+                        </div>
+
+                        <div class="include item6">
+                            <span><i class="fas fa-sun"></i></span>
+                            <h3>Quality Perfectionist</h3>
+                            <p>Morbi quis vitae vehicula libero. Quisque sagittis ligula justo eu euismod.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="ar3 ">
+                <div class="ar3__left--item1">
+                    <img src="./assets/image/Heaphone/about/2.jpg" alt="">
+                </div>
+                <div class="ar3__right--item1">
+                    <p>Fusce tincidunt metus sit amet gravida euismod. Praesent faucibus felis eu quam sagittis, sit
+                        amet faucibus urna rutrum. Suspendisse potenti. Sed ac lectus eget velit volutpat commodo ac
+                        eget nisl.</p>
+                    <strong>Fine engineering only for your ears</strong>
+                </div>
+
+                <div class="ar3__left--item2">
+                    <img src="./assets/image/Heaphone/about/3.jpg" alt="">
+                </div>
+                <div class="ar3__right--item2">
+                    <p>Fusce tincidunt metus sit amet gravida euismod. Praesent faucibus felis eu quam sagittis, sit
+                        amet faucibus urna rutrum. Suspendisse potenti. Sed ac lectus eget velit volutpat commodo ac
+                        eget nisl.</p>
+                    <strong>Fine engineering only for your ears</strong>
+                </div>
+            </article>
+
+            <article class="ar4">
+                <hr>
+                <h2>Thus spoke our customers</h2>
+                <div class="customer">
+                    <div class="custome__cus1 com">
+                        <p>
+                            "Donec sem neque, tempor sed mi eu, congue tincidunt dolor. Proin in scelerisque arcu, vel
+                            aliquet mauris. Suspendisse potenti. Pellentesque nec nibh mi. Nam vulputate, sapien et
+                            sagittis malesuada, libero leo bibendum"
+                        </p>
+                        <hr id="not">
+                        <div class="com2">
+                            <img src="./assets/image/product/about/5.jpg" alt="">
+                            <div class="detail">
+                                <h5>Henry</h5>
+                                <p>Musician</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="custome__cus2 com">
+                        <p>
+                            "Donec sem neque, tempor sed mi eu, congue tincidunt dolor. Proin in scelerisque arcu, vel
+                            aliquet mauris. Suspendisse potenti. Pellentesque nec nibh mi. Nam vulputate, sapien et
+                            sagittis malesuada, libero leo bibendum"
+                        </p>
+                        <hr id="not">
+                        <div class="com2">
+                            <img src="./assets/image/product/about/7.jpg" alt="">
+                            <div class="detail">
+                                <h5>Todd Bower</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="customer__cus3 com">
+                        <p>
+                            "Donec sem neque, tempor sed mi eu, congue tincidunt dolor. Proin in scelerisque arcu, vel
+                            aliquet mauris. Suspendisse potenti. Pellentesque nec nibh mi. Nam vulputate, sapien et
+                            sagittis malesuada, libero leo bibendum"
+                        </p>
+                        <hr id="not">
+                        <div class="com2">
+                            <img src="./assets/image/product/about/6.jpeg" alt="">
+                            <div class="detail">
+                                <h5>Erica Ryan</h5>
+                                <p>Professor</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="ar5">
+                <hr id="not3">
+                <h2>They worked while the...</h2>
+
+                <div class="wrap ">
+                    <div class="team">
+                        <img src="./assets/image/product/about/team-1.jpg" alt="">
+                        <h5>Phạm Thùy Trang</h5>
+                        <p>CEO</p>
+                    </div>
+
+                    <div class="team">
+                        <img src="./assets/image/product/about/team-2.jpg" alt="">
+                        <h5>Phạm Thanh Thủy</h5>
+                        <p>Manage Product</p>
+                    </div>
+
+                    <div class="team">
+                        <img src="./assets/image/product/about/team-3.jpg" alt="">
+                        <h5>Trần Thùy Ngân</h5>
+                        <p>Designer</p>
+                    </div>
+
+                    <div class="team">
+                        <img src="./assets/image/product/about/team-4.jpg" alt="">
+                        <h5>John Nguyen</h5>
+                        <p>Fashioner</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <!--Begin Footer-->
+    <div class="wrapper7" id="footercatalog">
+        <div class="footer">
+            <img src="./assets/image/Heaphone/footer.png" alt="" id="note">
+            <div class="opacity">
+            </div>
+            <div class="footer__logo">
+                <img src="./assets/image/logo.png" alt="">
+            </div>
+            <div class="footer--slogan">
+                <h2>Subscribe Our Newsletter</h2>
+            </div>
+            <form action="#" class="search ">
+                <input type="text" name="search" placeholder="Enter Email" id="" class="input">
+                <button class="submit btn-rouded">Subcribe</button>
+            </form>
+            <div class="bylogin">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <ul class="footer-contact">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li class="note2">About</li>
+                </a>
+                <a href="#">
+                    <li class="note2">Blog</li>
+                </a>
+                <a href="#">
+                    <li class="note2">Shop</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!--End Fotter-->
+
+
+
+</body>
+
+</html>
