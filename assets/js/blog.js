@@ -8,15 +8,15 @@ fetch(courseApi)
             return `
             <div class="blog__view">
             <div class="blog__view--image">
-                <img src=".${item.image}" alt="">
+                <img src="${item.image}" alt="">
                 <div class="overlay"></div>
             </div>
 
             <div class="blog__view--title">
-                <a href="./post.html">${item.title}</a>
+                <a href="./post.html">${item.name}</a>
             </div>
             <div class="blog__view--datepost">
-                ${item.author}
+                ${item.date}
             </div>
             <div class="blog__view--des">
                 ${item.description}
