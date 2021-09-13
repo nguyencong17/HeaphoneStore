@@ -1,10 +1,10 @@
 /**Load data product */
 
-let courseApi = 'https://api-headphone-store.herokuapp.com/api/posts';
+let courseApi = 'https://api-headphone-store.herokuapp.com/api/posts?_page=1&_limit=9';
 fetch(courseApi)
     .then(response => {return response.json()})
     .then(function(course){
-        let htmls = course.map(function(item){  
+        let htmls = course.data.map(function(item){  
             return `
             <div class="blog__view">
             <div class="blog__view--image">

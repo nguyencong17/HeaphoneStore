@@ -1,10 +1,11 @@
 /**Load data product */
 
-let courseApi = 'https://api-headphone-store.herokuapp.com/api/products';
+let courseApi = 'https://api-headphone-store.herokuapp.com/api/products?_page=1&_limit=14';
 fetch(courseApi)
     .then(response => {return response.json()})
     .then(function(course){
-        let htmls = course.map(function(item){  
+      console.log(course);
+        let htmls = course.data.map(function(item){  
             return `
             <div class="item">
             <div class="around">
