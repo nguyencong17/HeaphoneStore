@@ -1757,8 +1757,70 @@ html{
                     }
                 }
             }
+
             .product{
                 width: 100%;
+                #skeleton{
+                    width: 103%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: -15px;
+                    margin-right: -15px;
+                    .pulse {
+                        $from: #f5f5f5;
+                        $to: scale-color($from, $lightness: -10%);
+                        
+                        height: 100%;
+                        width: 100%;
+                        background: linear-gradient(-90deg, #efefef 0%, #fcfcfc 50%, #efefef 100%);
+                        background-size: 400% 400%;
+                        animation: pulse 1.5s ease-in-out infinite;
+                        @keyframes pulse {
+                          0% {
+                            background-position: 0% 0%
+                          }
+                          100% {
+                            background-position: -135% 0%
+                          }
+                        }
+                      }
+                      
+                      html, body {
+                        height: 100%;
+                      }
+                      
+                    @keyframes fadeIn {
+                        from{
+                            opacity: 0;
+                        }to{
+                            opacity: 1;
+                        }
+                    }
+                    .content {
+                        display: flex;
+                      }
+                      
+                      .lines {  
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 25%;
+                        padding: 0 15px 20px;
+                        .line, .thumb {
+                          background-color: #f5f5f5;
+                          width: 100%;
+                          height: 2rem;
+                          margin: 0.25rem;
+                        }
+                        
+                        .thumb {
+                          width: 100%;
+                          height: 226.363px;
+                        }
+                      }
+                }
                 .round{
                     width: 103%;
                     display: flex;
@@ -2858,10 +2920,4 @@ html{
         margin-left: -31px;
     }
 }
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-    }to{
-        opacity: 1;
-    }
-}
+

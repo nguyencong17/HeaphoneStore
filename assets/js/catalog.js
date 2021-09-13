@@ -5,6 +5,7 @@ fetch(courseApi)
     .then(response => {return response.json()})
     .then(function(course){
       console.log(course);
+      const isLoading = false;  
         let htmls = course.data.map(function(item){  
             return `
             <div class="item">
@@ -32,8 +33,11 @@ fetch(courseApi)
             <p>${item.price}.000 đ</p>
           </div>
             `
+            isLoading = true;
         })
-
+        
+        document.getElementById('skeleton').style.display = 'none';
         let html = htmls.join('');
         document.getElementById('data-product').innerHTML = html;
+        
     })
