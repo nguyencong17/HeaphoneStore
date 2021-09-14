@@ -63,14 +63,16 @@ body {
 /* Begin Wrapper*/
 .wrapper {
   width: 100%;
-  height: 800px; }
+  height: 800px;
+  overflow-x: hidden; }
   .wrapper .sli {
     cursor: pointer; }
   .wrapper #prev, .wrapper #next {
     position: absolute;
     width: 80px;
     text-align: center;
-    font-size: 40px; }
+    font-size: 40px;
+    z-index: 50; }
   .wrapper #prev {
     left: 0;
     line-height: 790px; }
@@ -352,7 +354,8 @@ body {
 .wrapper2 {
   position: relative;
   width: 100%;
-  margin-top: 50px; }
+  margin-top: 50px;
+  overflow-x: hidden; }
   .wrapper2 .section {
     width: 100%; }
     .wrapper2 .section .section__1 {
@@ -455,7 +458,9 @@ body {
 /*Begin wrapper3*/
 .wrapper3 {
   width: 100%;
-  background-color: #fc846b; }
+  background-color: #fc846b;
+  overflow-x: hidden;
+  overflow-y: hidden; }
   .wrapper3 .introduce {
     width: 100%;
     display: flex;
@@ -529,7 +534,8 @@ body {
 /*End wrapper3*/
 /*Begin wrapper4*/
 .wrapper4 {
-  width: 100%; }
+  width: 100%;
+  overflow-x: hidden; }
   .wrapper4 img {
     position: absolute; }
   .wrapper4 .square-image {
@@ -616,7 +622,9 @@ body {
   width: 100%;
   height: 600px;
   position: relative;
-  margin-top: 30px; }
+  margin-top: 30px;
+  overflow-x: hidden;
+  overflow-y: hidden; }
   .wrapper5 img {
     position: absolute;
     width: 100%;
@@ -1307,8 +1315,7 @@ body {
         width: 100%;
         text-align: center; }
         .wrapper2 .section .section__1 .section--image #pro-section-1 {
-          width: 50%;
-          margin-top: -21px; }
+          width: 50%; }
       .wrapper2 .section .section__1 .section__detail {
         position: relative;
         width: 100%;
@@ -1390,10 +1397,7 @@ body {
     margin: 0;
     width: 100%; }
     .wrapper4 .manage .manage__left img {
-      margin-top: 35%;
-      margin-left: 38%;
-      width: 15rem;
-      height: 15rem; }
+      display: none; }
     .wrapper4 .manage .manage__right .mange__right--name h2 {
       font-size: 2rem;
       margin-bottom: 0; }
@@ -1413,7 +1417,7 @@ body {
         width: 80%;
         margin: auto; }
       .wrapper4 .manage .manage__right .manage__right--des p {
-        margin-top: 150px;
+        margin-top: 0px;
         font-size: 1.4rem; }
       .wrapper4 .manage .manage__right .manage__right--note {
         margin-top: -2rem; }

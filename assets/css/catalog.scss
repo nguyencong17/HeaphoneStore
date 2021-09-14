@@ -2185,6 +2185,9 @@ html{
     #catalog .content__main .content__main--aside .aside .aside__seller .item img {
         height: 170px;
     }
+    #catalog .content__main .content__main--item .product #skeleton .lines{
+        width: 33.3%;
+    }
     #catalog .dialog{
         align-items: unset;
         .detail{
@@ -2339,6 +2342,9 @@ html{
                 max-height: 100%;
             }
         }
+    }
+    #catalog .content__main .content__main--item .product #skeleton .lines{
+        width: 33.3%;
     }
     .wrapper7{
         height: 380px;
@@ -2561,7 +2567,9 @@ html{
             background-color: #333;
         }
     }
-
+    #catalog .content__main .content__main--item .product #skeleton .lines{
+        width: 50%;
+    }
     .wrapper7{
         margin-top: 105px;
         height: 360px;
@@ -2851,6 +2859,9 @@ html{
             
             }
         }
+    }
+    #catalog .content__main .content__main--item .product #skeleton .lines{
+        width: 50%;
     }
     .wrapper7{
         margin-top: 7rem;
